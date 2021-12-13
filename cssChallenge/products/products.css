@@ -1,0 +1,26 @@
+main {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr)
+}
+
+.sec-list {
+    height: 800px;
+    width: 400px;
+    margin: 0;
+}
+
+.sec-list .h-title {
+    text-align: center;
+}
+
+.sec-list img {
+    display: block;
+    width: 300px;
+    object-fit: contain;
+    margin: 0 auto 0 auto;
+}
+
+.sec-list p {
+    text-align: center;
+}
