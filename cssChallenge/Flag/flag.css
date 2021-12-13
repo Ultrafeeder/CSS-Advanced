@@ -1,0 +1,25 @@
+table {
+    width: 1900px;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+
+table tr td {
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+table tr .stars {
+    background-image: url(Easy\ CSS\ Example.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+table .red {
+    background-color: red;
+}
+
+table .white {
+    background-color: white;
+}
